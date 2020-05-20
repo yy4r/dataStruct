@@ -1,6 +1,6 @@
 package demo2;
 
-//一个节点
+//一个节点  用来做单链表的时候使用
 public class Node {
 
 	//节点内容

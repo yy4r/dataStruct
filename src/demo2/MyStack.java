@@ -1,5 +1,5 @@
 package demo2;
-
+//用数组实现栈空间
 public class MyStack {
 	
 	//栈的底层我们使用数组来存储数据
@@ -23,7 +23,7 @@ public class MyStack {
 		elements = newArr;
 	}
 	
-	//取出栈顶元素
+	//取出栈顶元素  取出元素之后  栈空间 会自动的压入栈
 	public int pop() {
 		//栈中没有元素
 		if(elements.length==0) {
