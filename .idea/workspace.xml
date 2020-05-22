@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51295bdf-94ff-4981-85d2-fba8582b77bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/test/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linked_list/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/linked_list/util/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo01.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayTest">
+  <component name="RunManager" selected="Application.Demo04 (1)">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.array.test.ArrayTest" />
       <module name="demo" />
@@ -102,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Demo02" />
+    <configuration name="Demo04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Demo04" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo04 (1)" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.StringUtil" />
         <item itemvalue="Application.Demo04" />
-        <item itemvalue="Application.Demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +158,7 @@
       <workItem from="1590023324070" duration="1428000" />
       <workItem from="1590045298995" duration="604000" />
       <workItem from="1590048812314" duration="11624000" />
-      <workItem from="1590110924061" duration="6677000" />
+      <workItem from="1590110924061" duration="13019000" />
     </task>
     <task id="LOCAL-00001" summary="栈和节点">
       <created>1589956053596</created>
@@ -216,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590059641717</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="leetcode">
+      <created>1590119462057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590119462057</updated>
+    </task>
+    <task id="LOCAL-00009" summary="leetcode">
+      <created>1590119568459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590119568459</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +300,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/linked_list/Demo01.java</url>
           <line>27</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/tree/Demo04.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
