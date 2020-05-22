@@ -2,7 +2,9 @@ package leetcode.tree;
 
 import leetcode.tree.util.TreeNode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * @author Jack
@@ -11,6 +13,7 @@ import java.util.LinkedList;
  */
 //实现一个函数，检查二叉树是否平衡。在这个问题中，平衡树的定义如下：任意一个节点，其两棵子树的高度差不超过 1。
 public class Demo01 {
+    static List<TreeNode> list = new ArrayList<TreeNode>();
     public static void main(String[] args) {
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
@@ -29,7 +32,24 @@ public class Demo01 {
         treeNode2.right = treeNode8;
 //        new Demo01().isBalanced(treeNode1);
 //        new Demo01().rec(treeNode1);
-        levelPrint(treeNode1);
+//        levelPrint(treeNode1);
+        rec02(treeNode1);
+        for (TreeNode treeNode : list) {
+            System.out.println(treeNode.val);
+        }
+    }
+
+    //递归出所有的叶子节点
+    public static void rec02(TreeNode root){
+        if (root.right==null&&root.left==null){
+            list.add(root);
+        }
+        if (root.left!=null){
+            rec02(root.left);
+        }
+        if (root.right!=null){
+            rec02(root.right);
+        }
     }
 
     /**

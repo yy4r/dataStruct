@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51295bdf-94ff-4981-85d2-fba8582b77bb" name="Default Changelist" comment="栈和节点">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Demo001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/util/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="51295bdf-94ff-4981-85d2-fba8582b77bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/test/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linked_list/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/linked_list/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/tree/Demo01.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,13 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01 (1)">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.Demo" />
+  <component name="RunManager" selected="Application.ArrayTest">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.test.ArrayTest" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="PATTERN" value="leetcode.array.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Demo01" />
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linked_list.Demo01" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tree.Demo02" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.Demo01" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.Demo04" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -121,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.Demo03" />
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.util.StringUtil" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myData.coding.TestFile" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myData.coding.*" />
+          <option name="PATTERN" value="leetcode.string.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01 (1)" />
-        <item itemvalue="Application.Demo03" />
+        <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.TestFile" />
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="Application.Demo04" />
+        <item itemvalue="Application.Demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +164,8 @@
       <workItem from="1589953733948" duration="12090000" />
       <workItem from="1590023324070" duration="1428000" />
       <workItem from="1590045298995" duration="604000" />
-      <workItem from="1590048812314" duration="6079000" />
+      <workItem from="1590048812314" duration="11624000" />
+      <workItem from="1590110924061" duration="6677000" />
     </task>
     <task id="LOCAL-00001" summary="栈和节点">
       <created>1589956053596</created>
@@ -214,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589959555370</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="leetcode">
+      <created>1590059641717</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590059641717</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,9 +266,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="栈和节点" />
     <MESSAGE value="提交新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交新代码" />
+    <MESSAGE value="栈和节点" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,10 +281,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/tree/Demo01.java</url>
-          <line>78</line>
+          <line>98</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/tree/Demo01.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/linked_list/Demo01.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$Demo01__1_.ic" NAME="Demo01 (1) Coverage Results" MODIFIED="1590060014993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.tree.*</FILTER>
+    </SUITE>
   </component>
 </project>
