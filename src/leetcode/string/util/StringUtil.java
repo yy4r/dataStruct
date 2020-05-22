@@ -8,7 +8,7 @@ package leetcode.string.util;
 
 public class StringUtil {
     public static void main(String[] args) {
-        System.out.println("a".concat("a"));
+        System.out.println("a".concat("aaaa"));
 
         System.out.println("abc".indexOf("a"));
     }
