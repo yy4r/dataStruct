@@ -5,6 +5,7 @@ import leetcode.tree.util.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @author Jack
@@ -14,6 +15,7 @@ import java.util.List;
 //实现一个函数，检查二叉树是否平衡。在这个问题中，平衡树的定义如下：任意一个节点，其两棵子树的高度差不超过 1。
 public class Demo01 {
     static List<TreeNode> list = new ArrayList<TreeNode>();
+
     public static void main(String[] args) {
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
@@ -40,20 +42,21 @@ public class Demo01 {
     }
 
     //递归出所有的叶子节点
-    public static void rec02(TreeNode root){
-        if (root.right==null&&root.left==null){
+    public static void rec02(TreeNode root) {
+        if (root.right == null && root.left == null) {
             list.add(root);
         }
-        if (root.left!=null){
+        if (root.left != null) {
             rec02(root.left);
         }
-        if (root.right!=null){
+        if (root.right != null) {
             rec02(root.right);
         }
     }
 
     /**
      * 判断树是不是平衡的   叶子节点的最大差  大于一 则代表不平衡
+     *
      * @param root
      * @return
      */
@@ -67,6 +70,7 @@ public class Demo01 {
         //所有的全部都是 true的情况下，返回true
         return isBalanced(root.left) && isBalanced(root.right);
     }
+
     //二叉树 所有节点的左边的最大深度和右边最大深度差的绝对值 不大于一  才是平衡二叉树
     public int digui(TreeNode root, int depht) {
         if (root == null)
@@ -87,6 +91,28 @@ public class Demo01 {
         }
         return true;
     }
+
+    //广搜
+    public static void dfs(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        TreeNode tmp = root;
+        Queue<TreeNode> queue = new LinkedList();
+        queue.offer(tmp);
+        //队列不为空的话  就继续
+        while (!queue.isEmpty()) {
+            TreeNode currentNode = queue.poll();
+            System.out.println(currentNode.val);
+            if (currentNode.left != null) {
+                queue.offer(root.left);
+            }
+            if (currentNode.right != null) {
+                queue.offer(currentNode.right);
+            }
+        }
+    }
+
 
     public static void levelPrint(TreeNode root) {
         if (root == null) {
